@@ -1,5 +1,17 @@
 # PayPilot AI
 
+## Verified Lovable hackathon demo
+
+The completed, tested Lovable implementation lives in [`lovable-demo/`](lovable-demo/). It is the current visual hackathon demo and includes the message-to-invoice-to-payment simulation, seller approval guardrail, dashboard, landing page, and tests.
+
+```bash
+cd lovable-demo
+npm install
+npm run dev
+```
+
+The original FastAPI + React starter remains in `backend/` and `frontend/` for the server-side Gemini and PayPal Sandbox integration track.
+
 An AI-assisted seller workspace that turns natural-language order messages into editable invoices and PayPal Sandbox checkout orders.
 
 ## MVP features
